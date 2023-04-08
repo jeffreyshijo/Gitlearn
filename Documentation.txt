@@ -1,0 +1,46 @@
+//Git is a software that is installed on your computer
+
+Basically it is "A MEMORY CARD FOR CODE"
+
+Commands:
+git init :  Initilazed empty git repository
+            "Putting a memory card into a game system"
+
+git add :   Add what you want to save
+            git add filename --> To add a specific filename     
+            git add . --> save everything
+
+git commit :    Commit the above changes into the repository
+                git commit -m 'Describe the changes'
+
+git log :   To see the saved things you did (A Log of previous activities)
+
+git status :    see current status of the git (see, if there is any files to be committed/add etc..)
+
+git checkout :  to checkout any particular timestamp/branch (Can be used to go to any previous progress(saved))
+
+//When yo use git checkout you basically go to a different branch
+
+How to make a new repository:
+--> Make a new repository in github
+--> Add the given command on the page
+
+To PUSH: 
+    git remote add origin https://-------
+    git push -u origin master
+
+git checkout -b new-branch-name // to make a new branch
+
+git branch // to see the existing branches
+
+Branch:
+You can do your code and save it into different branches (To try it out) and later merge it with the master branch
+
+git branch
+git push origin
+
+
+to pull:    git pull origin master
+
+
+
